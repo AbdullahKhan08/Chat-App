@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* css for body  */
+body {
+    background: linear-gradient(to right, white, rgb(255, 179, 255));
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* css for logo image  */
+.logo {
+    display: block;
+    margin: auto;
+    width: 75px;
+    height: 75px;
+
+}
+
+/* css for heading  */
+#heading {
+    text-align: center;
+    font-size: 30px;
+    margin: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* css for user name  */
+#nameDiv {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+/* css for user name  */
+#name {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* container where all messages will appear  */
+.container {
+    margin: auto;
+    max-width: 955px;
+    height: 50vh;
+    border: 2px solid black;
+    overflow-y: auto;
+    padding: 33px;
+    margin-bottom: 23px;
+    border-radius: 20px;
+}
+
+
+/* class for messages from other people to appear on left side  */
+.left {
+    font-size: 17px;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(177, 149, 240);
+    float: left;
+    clear: both;
+    max-width: 45%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* class for our own messages to appear on right side  */
+.right {
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(177, 149, 240);
+    max-width: 45%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    float: right;
+    clear: both;
+
+}
+
+/* class for messages of people joining and leaving to appear in the center */
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(66, 0, 50);
+    color: white;
+    width: 30%;
+    padding: 10px;
+    margin: 20px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+    float: left;
+    position: relative;
+    left: 37%;
+    clear: both;
+    display: block;
+
+}
+
+/*  form css  */
+#send-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 1085px;
+    width: 100%;
+}
+
+/* message  input css  */
+#msgInp {
+    width: 85%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin: 0px 4px;
+}
+
+
+/* css for button  */
+.btn {
+    background-color: rgb(223, 135, 255);
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    width: 9%;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
